@@ -1,0 +1,367 @@
+/*
+Theme Name: Green Travel Blog
+Theme URI: vimukthiguruge.com/themes/greentravel
+Author: Vimukthi Guruge
+Author URI: https://vimukthiguruge.com
+Version: 1.0.2
+Description: Simple and Clean WordPress Theme which is most suitable for blog writers. This theme created by Vimukthi Guruge
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: two-columns, right-sidebar, custom-background, custom-menu, featured-images, blog, news
+Text Domain: Green-travel-blog
+Domain Path: /languages
+*/
+
+html, h1, h2, h3, h4, h5, p, logo, anchor, title-link{
+	font-family: 'Slabo 27px', serif;
+}
+
+#custom-background-css{
+    background: no-repeat center center fixed;
+}
+
+
+.navfont:hover{
+	color:#70F06C; 
+}
+.logo{
+	color:red;
+	font-size:25pt;
+	font-family: 'Slabo 25px', serif;
+}
+
+.anchor{
+	text-decoration:none;
+	color:green;
+
+}
+.anchor:hover{
+	color:#70F06C; 
+	text-decoration:none;
+}
+
+input{
+	font-size:100pt;
+	color:red;
+}
+
+.site-description{
+	background-color:gray;
+}
+
+.ttheme-page{
+	border-left:2px solid #70F06C; 
+	border-right:2px solid #70F06C; 
+	
+	
+}
+
+/*Posts*/
+
+.title-link{
+	text-decoration:none;
+	color: green;
+	font-family: 'Slabo ', serif;
+}
+.title-link:hover{
+	color:#70F06C; 
+	text-decoration:none;
+}
+.read-more-button{
+	float:right;
+	margin-right:5%;
+}
+
+.post-body{
+	background-color:#eff1f4;
+	padding-left:3%;
+	padding-top:0.3%;
+	padding-bottom:3%;
+	margin-bottom:3%;
+	margin-left:2%;
+	margin-right:4%;
+	opacity:0.96;
+		border: 2px solid green;
+}
+
+/*search*/
+.my-form-input{
+	margin-bottom:5px;
+}
+
+.my-form-search{
+	max-width:30%;
+	float:right;
+}
+#searchform{
+	margin-top:20px;
+	margin-bottom:20px;
+	padding-bottom:20px;
+	margin-right:2%;
+	margin-left:2%;
+}
+.search-f{
+	mmargin-bottom:10px;
+}
+.frm{
+	padding-bottom:10px;
+}
+
+/*widget*/
+
+.widget-area{
+	margin-bottom:10px;
+	bbackground-color:#ffffff;
+	margin-top:0px;
+	font-size:10pt;
+	margin-left:0px;
+	margin-right:0px;
+	max-width:100%;
+	padding-left:10px;
+	padding-right:10px;
+
+	
+}
+
+
+.wid{
+	margin-left:-10px;
+}
+.widgeta{
+	margin-bottom:20px;
+	background-color:#eff1f4;
+	padding-top:2px;
+	padding-bottom:10px;
+	padding-left:5px;
+	padding-right:5px;
+	margin-left:10px;
+	font-family: 'Slabo 27px', serif;
+	opacity:0.96;
+		border: 2px solid green;
+}
+.widgeta ul {
+  list-style-type: none;
+}
+
+.widgeta h1{
+	color:green;
+	font-size:18pt;
+	text-align:left;
+	
+
+background-color: #666666;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-shadow: rgba(255,255,255,0.5) 0px 3px 3px;
+}
+
+
+/* calendar widget */
+.widget_calendar {float: left;}
+#wp-calendar {width: 100%; }
+#wp-calendar caption { text-align: right; color: #333; font-size: 12px; margin-top: 10px; margin-bottom: 15px; }
+#wp-calendar thead { font-size: 10px; }
+#wp-calendar thead th { padding-bottom: 10px; }
+#wp-calendar tbody { color: #aaa; }
+#wp-calendar tbody td { background: #f5f5f5; border: 1px solid #70F06C; ; text-align: center; padding:8px;}
+#wp-calendar tbody td:hover { background: #fff; }
+#wp-calendar tbody .pad { background: none; }
+#wp-calendar tfoot #next { font-size: 10px; text-transform: uppercase; text-align: right; }
+#wp-calendar tfoot #prev { font-size: 10px; text-transform: uppercase; padding-top: 10px; }
+
+
+/*single post*/
+
+.single-post-title{
+	color:green;
+	font-family: 'Slabo 27px', serif;
+}
+
+
+
+
+
+.pagination {
+clear:both;
+padding:20px 0;
+position:relative;
+font-size:11px;
+line-height:13px;
+}
+ 
+.pagination span, .pagination a {
+display:block;
+float:left;
+margin: 2px 2px 2px 0;
+padding:6px 9px 5px 9px;
+text-decoration:none;
+width:auto;
+color:#fff;
+background: #555;
+}
+ 
+.pagination a:hover{
+color:#fff;
+background: #3279BB;
+}
+ 
+.pagination .current{
+padding:6px 9px 5px 9px;
+background: #3279BB;
+color:#fff;
+}
+
+
+
+/*comment*/
+.commentmetadata{
+    font-size:10px;
+}
+#comments{
+    font-size:15px;
+}
+.fn{
+    font-size:10px;
+}
+.comment {
+    background-color:#70F06C; 
+    padding-left:20px;
+    padding-top:10px;
+    padding-bottom:5px;
+    padding-right:10px;
+    list-style-type: none;
+    margin-right:30%;
+    margin-bottom:10px;
+}
+.children{
+    margin-top:5px;
+   margin-bottom:5px;
+    border: 2px solid green;
+}
+
+
+
+
+
+
+/* =WordPress Core
+-------------------------------------------------------------- */
+.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.aligncenter,
+div.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+
+.alignright {
+    float:right;
+    margin: 5px 0 20px 20px;
+}
+
+.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignright {
+    float: right;
+    margin: 5px 0 20px 20px;
+}
+
+a img.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wp-caption {
+    background: #fff;
+    border: 1px solid #f0f0f0;
+    max-width: 96%; /* Image does not overflow the content area */
+    padding: 5px 3px 10px;
+    text-align: center;
+}
+
+.wp-caption.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignleft {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignright {
+    margin: 5px 0 20px 20px;
+}
+
+.wp-caption img {
+    border: 0 none;
+    height: auto;
+    margin: 0;
+    max-width: 98.5%;
+    padding: 0;
+    width: auto;
+}
+
+.wp-caption p.wp-caption-text {
+    font-size: 11px;
+    line-height: 17px;
+    margin: 0;
+    padding: 0 4px 5px;
+}
+
+/* Text meant only for screen readers. */
+.screen-reader-text {
+	clip: rect(1px, 1px, 1px, 1px);
+	position: absolute !important;
+        white-space: nowrap;
+	height: 1px;
+	width: 1px;
+	overflow: hidden;
+}
+
+.screen-reader-text:focus {
+	background-color: #f1f1f1;
+	border-radius: 3px;
+	box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+	clip: auto !important;
+	color: #21759b;
+	display: block;
+	font-size: 14px;
+	font-size: 0.875rem;
+	font-weight: bold;
+	height: auto;
+	left: 5px;
+	line-height: normal;
+	padding: 15px 23px 14px;
+	text-decoration: none;
+	top: 5px;
+	width: auto;
+	z-index: 100000; /* Above WP toolbar. */
+}
+
+
+.sticky {
+    background-color: $bgcolor-sticky;
+}
+.bypostauthor{
+    
+}
+.gallery-caption{
+    
+}
+
